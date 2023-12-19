@@ -1,0 +1,147 @@
+
+body {
+    background: url('../assets/images/fondo.png') center center no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+
+    flex-direction: column;
+
+
+
+}
+
+.section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section_peliculas{
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+
+
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+
+
+}
+
+
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error{
+    color:red;
+}
+
+
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+    align-items: center;
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+
+
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color:white;
+
+    width: 800px;
+
+    text-align:center;
+
+}
+
+.actor {
+    margin: 5px;
+
+}
+
+.actores{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_insertar{
+    background-color: white;
+    color:black;
+}
+
+.formulario{
+    background-color:white;
+    text-align: center
+}
